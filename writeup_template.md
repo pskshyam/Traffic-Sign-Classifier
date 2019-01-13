@@ -68,49 +68,49 @@ As a last step, I have normalized the image data because the training runs faste
 
 The difference between the original data set and the augmented data set is the following ... 
 
-Class label 0, original sample count 180, updated sample count 5040
-Class label 1, original sample count 1980, updated sample count 5940
-Class label 2, original sample count 2010, updated sample count 6030
-Class label 3, original sample count 1260, updated sample count 5040
-Class label 4, original sample count 1770, updated sample count 5310
-Class label 5, original sample count 1650, updated sample count 6600
-Class label 6, original sample count 360, updated sample count 5040
-Class label 7, original sample count 1290, updated sample count 5160
-Class label 8, original sample count 1260, updated sample count 5040
-Class label 9, original sample count 1320, updated sample count 5280
-Class label 10, original sample count 1800, updated sample count 5400
-Class label 11, original sample count 1170, updated sample count 5850
-Class label 12, original sample count 1890, updated sample count 5670
-Class label 13, original sample count 1920, updated sample count 5760
-Class label 14, original sample count 690, updated sample count 5520
-Class label 15, original sample count 540, updated sample count 5400
-Class label 16, original sample count 360, updated sample count 5040
-Class label 17, original sample count 990, updated sample count 5940
-Class label 18, original sample count 1080, updated sample count 5400
-Class label 19, original sample count 180, updated sample count 5040
-Class label 20, original sample count 300, updated sample count 5100
-Class label 21, original sample count 270, updated sample count 5130
-Class label 22, original sample count 330, updated sample count 5280
-Class label 23, original sample count 450, updated sample count 5400
-Class label 24, original sample count 240, updated sample count 5040
-Class label 25, original sample count 1350, updated sample count 5400
-Class label 26, original sample count 540, updated sample count 5400
-Class label 27, original sample count 210, updated sample count 5040
-Class label 28, original sample count 480, updated sample count 5280
-Class label 29, original sample count 240, updated sample count 5040
-Class label 30, original sample count 390, updated sample count 5070
-Class label 31, original sample count 690, updated sample count 5520
-Class label 32, original sample count 210, updated sample count 5040
-Class label 33, original sample count 599, updated sample count 5391
-Class label 34, original sample count 360, updated sample count 5040
-Class label 35, original sample count 1080, updated sample count 5400
-Class label 36, original sample count 330, updated sample count 5280
-Class label 37, original sample count 180, updated sample count 5040
-Class label 38, original sample count 1860, updated sample count 5580
-Class label 39, original sample count 270, updated sample count 5130
-Class label 40, original sample count 300, updated sample count 5100
-Class label 41, original sample count 210, updated sample count 5040
-Class label 42, original sample count 210, updated sample count 5040
+* Class label 0, original sample count 180, updated sample count 5040
+* Class label 1, original sample count 1980, updated sample count 5940
+* Class label 2, original sample count 2010, updated sample count 6030
+* Class label 3, original sample count 1260, updated sample count 5040
+* Class label 4, original sample count 1770, updated sample count 5310
+* Class label 5, original sample count 1650, updated sample count 6600
+* Class label 6, original sample count 360, updated sample count 5040
+* Class label 7, original sample count 1290, updated sample count 5160
+* Class label 8, original sample count 1260, updated sample count 5040
+* Class label 9, original sample count 1320, updated sample count 5280
+* Class label 10, original sample count 1800, updated sample count 5400
+* Class label 11, original sample count 1170, updated sample count 5850
+* Class label 12, original sample count 1890, updated sample count 5670
+* Class label 13, original sample count 1920, updated sample count 5760
+* Class label 14, original sample count 690, updated sample count 5520
+* Class label 15, original sample count 540, updated sample count 5400
+* Class label 16, original sample count 360, updated sample count 5040
+* Class label 17, original sample count 990, updated sample count 5940
+* Class label 18, original sample count 1080, updated sample count 5400
+* Class label 19, original sample count 180, updated sample count 5040
+* Class label 20, original sample count 300, updated sample count 5100
+* Class label 21, original sample count 270, updated sample count 5130
+* Class label 22, original sample count 330, updated sample count 5280
+* Class label 23, original sample count 450, updated sample count 5400
+* Class label 24, original sample count 240, updated sample count 5040
+* Class label 25, original sample count 1350, updated sample count 5400
+* Class label 26, original sample count 540, updated sample count 5400
+* Class label 27, original sample count 210, updated sample count 5040
+* Class label 28, original sample count 480, updated sample count 5280
+* Class label 29, original sample count 240, updated sample count 5040
+* Class label 30, original sample count 390, updated sample count 5070
+* Class label 31, original sample count 690, updated sample count 5520
+* Class label 32, original sample count 210, updated sample count 5040
+* Class label 33, original sample count 599, updated sample count 5391
+* Class label 34, original sample count 360, updated sample count 5040
+* Class label 35, original sample count 1080, updated sample count 5400
+* Class label 36, original sample count 330, updated sample count 5280
+* Class label 37, original sample count 180, updated sample count 5040
+* Class label 38, original sample count 1860, updated sample count 5580
+* Class label 39, original sample count 270, updated sample count 5130
+* Class label 40, original sample count 300, updated sample count 5100
+* Class label 41, original sample count 210, updated sample count 5040
+* Class label 42, original sample count 210, updated sample count 5040
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
