@@ -168,8 +168,8 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Bumpy road      		| Bumpy road   									| 
-| 100 kmph     			| Bumpy road 										|
+| Bump Sign      		| Bump sign   									| 
+| 100 kmph     			| 120 kmph 										|
 | Road work					| Road work											|
 | No vehicles	      		| No vehicles					 				|
 | Turn right ahead			| Turn right ahead     							|
@@ -186,48 +186,48 @@ For the first image, the model is relatively sure that this is a bump sign (prob
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.1         			| Bumpy road   									| 
-| 0.0     				| Traffic signals 										|
+| 0.0     				| Bicycles crossing 										|
 | 0.0					| Road work											|
-| 0.0	      			| Bicycles crossing					 				|
-| 0.0				    | Dangerous curve to the left      							|
+| 0.0	      			| Wild animals crossing					 				|
+| 0.0				    | Traffic signals      							|
 
 
 For the second image which is 100 kmph sign, the model is only 11% confident that this is a 100 kmph sign (probability of 0.11) and is 77% confident that it is 120 kmph sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 0.77         			| Bumpy road   									| 
-| 0.11    				| Traffic signals 										|
-| 0.1					| Dangerous curve to the right											|
-| 0.0	      			| No entry					 				|
-| 0.0				    | Road work      							|
+| 0.77         			| Speed limit (120 km/h)   									| 
+| 0.11    				| Speed limit (100 km/h) 										|
+| 0.1					| Speed limit (70 km/h)											|
+| 0.0	      			| Traffic signals					 				|
+| 0.0				    | Priority road      							|
 
 For the third image, the model is relatively sure that this is a road work sign (probability of 1.0), and the image does contain a road work sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.1         			| Road work   									| 
-| 0.0     				| Road narrows on the right 										|
-| 0.0					| Beware of ice/snow											|
-| 0.0	      			| Right-of-way at the next intersection					 				|
-| 0.0				    | Wild animals crossing  							|
+| 0.0     				| Bumpy road 										|
+| 0.0					| Double curve											|
+| 0.0	      			| Wild animals crossing					 				|
+| 0.0				    | Beware of ice/snow    							|
 
 For the fourth image, the model is relatively sure that this is a no-vehicle sign (probability of 1.0), and the image does contain a no-vehicle sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.1         			| No vehicles   									| 
-| 0.0     				| Speed limit (70 km/h) 										|
-| 0.0					| Speed limit (120 km/h)											|
-| 0.0	      			| Speed limit (30 km/h)					 				|
-| 0.0				    | Speed limit (100 km/h)      							|
+| 0.0     				| Speed limit (720 km/h) 										|
+| 0.0					| Speed limit (100 km/h)											|
+| 0.0	      			| Speed limit (120 km/h)					 				|
+| 0.0				    | Speed limit (50 km/h)      							|
 
 For the fifrth image, the model is relatively sure that this is a turn right ahead sign (probability of 1.0), and the image does contain a turn right ahead sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.1         			| Turn right ahead   									| 
-| 0.0     				| Keep left 										|
-| 0.0					| Go straight or right											|
-| 0.0	      			| Ahead only					 				|
-| 0.0				    | Roundabout mandatory      							|
+| 0.0     				| Ahead only 										|
+| 0.0					| Roundabout mandatory											|
+| 0.0	      			| Turn left ahead					 				|
+| 0.0				    | Beware of ice/snow      							|
